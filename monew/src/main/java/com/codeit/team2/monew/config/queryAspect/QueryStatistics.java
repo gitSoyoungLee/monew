@@ -17,6 +17,11 @@ public class QueryStatistics {
     private String apiUrl;
     private Long queryCounts = 0L;
     private Long queryTime = 0L;
+    private long queryTimeNanos = 0L; // [BENCH] System.nanoTime 기반 보조 측정값
+
+    public void addQueryTimeNanos(long nanos) {
+        this.queryTimeNanos += nanos;
+    }
 
     public void setApiUrl(String url) {
         this.apiUrl = url;
