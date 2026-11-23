@@ -105,25 +105,22 @@ public class ArticleServiceImpl implements ArticleService {
         Slice<Article> slices = articleRepository.findWithCursor(cursorPageRequestArticleDto);
 
         List<Article> articles = slices.getContent();
-        List<UUID> articleIds = articles.stream().map(article -> article.getId())
-            .collect(Collectors.toList());
-        // DTO 매핑을 위해 필요한 값 bulk로 가져오기
-        Map<UUID, Long> commentCountMap = commentRepository.countByArticleIds(articleIds).stream()
-            .collect(Collectors.toMap(
-                row -> (UUID) row[0],  // 첫 번째 컬럼: articleId
-                row -> (Long) row[1]   // 두 번째 컬럼: count
-            ));
-        List<UUID> viewedArticleIds = articleViewRepository.findViewedArticleIds(userId,
-            articleIds);
-
-        // Article -> ArticleDto 매핑
-        List<ArticleDto> articleDtos = articles.stream()
-            .map(article -> {
-                Long commentCount = commentCountMap.getOrDefault(article.getId(), 0L);
-                boolean viewedByMe = viewedArticleIds.contains(article.getId());
-                return articleMapper.toDto(article, commentCount, viewedByMe);
-            })
-            .toList();
+        // [BENCH: 개선 전] 4a53b00 이전 방식 - 기사마다 댓글 수 / 조회 여부를 개별 조회 (N+1)
+        List<ArticleDto> articleDtos = new java.util.ArrayList<>();
+        articles.stream().forEach(article -> {
+            Long commentCount = commentRepository.countByArticle(article);
+            boolean viewedByMe = articleViewRepository.existsByUserIdAndArticleId(userId,
+                article.getId());
+            articleDtos.add(new ArticleDto(article.getId(),
+                article.getSource(),
+                article.getSourceUrl(),
+                article.getTitle(),
+                article.getPublishedDate(),
+                article.getSummary(),
+                commentCount,
+                article.getViewCount(),
+                viewedByMe));
+        });
 
         long totalElements = articleRepository.countFilteredTotalElements(
             cursorPageRequestArticleDto.keyword(), cursorPageRequestArticleDto.interestId(),
