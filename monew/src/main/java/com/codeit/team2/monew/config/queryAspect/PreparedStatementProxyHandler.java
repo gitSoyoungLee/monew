@@ -20,8 +20,11 @@ public class PreparedStatementProxyHandler implements InvocationHandler {
         throws Throwable {
         if (isExecuteQuery(method)) {
             final Long beforeTime = System.currentTimeMillis();
+            final long beforeNano = System.nanoTime(); // [BENCH] 정밀도 보조 측정
             final Object result = method.invoke(preparedStatement, args);
+            final long afterNano = System.nanoTime();
             final Long afterTime = System.currentTimeMillis();
+            queryStatistics.addQueryTimeNanos(afterNano - beforeNano);
             queryStatistics.addQueryCount();
             queryStatistics.addQueryTime(afterTime - beforeTime);
 

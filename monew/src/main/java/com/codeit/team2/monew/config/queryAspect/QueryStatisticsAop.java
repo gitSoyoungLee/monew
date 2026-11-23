@@ -46,9 +46,9 @@ public class QueryStatisticsAop {
 
         Object result = joinPoint.proceed();
 
-        log.info("Query Statistics: URL = {},  Query Count = {}, Query Time = {}(ms)",
+        log.info("Query Statistics: URL = {},  Query Count = {}, Query Time = {}(ms), Query Time(nano) = {}(us)",
             queryStatistics.getApiUrl(), queryStatistics.getQueryCounts(),
-            queryStatistics.getQueryTime());
+            queryStatistics.getQueryTime(), queryStatistics.getQueryTimeNanos() / 1000);
         return result;
     }
 }
