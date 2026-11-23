@@ -1,0 +1,147 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2026-11-23 20:43:27.016 [background-preinit] INFO  o.h.validator.internal.util.Version [] [] - HV000001: Hibernate Validator 8.0.2.Final
+2026-11-23 20:43:27.191 [main] INFO  c.c.team2.monew.MonewApplication [] [] - Starting MonewApplication vv2.4.0 using Java 17.0.10 with PID 4852 (C:\Users\soo71\github\monew-bench-after\monew\build\libs\monew-v2.4.0.jar started by soo71 in C:\Users\soo71\github\monew-bench-after\monew)
+2026-11-23 20:43:27.197 [main] INFO  c.c.team2.monew.MonewApplication [] [] - The following 1 profile is active: "dev"
+2026-11-23 20:43:31.218 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-23 20:43:31.222 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2026-11-23 20:43:31.822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Finished Spring Data repository scanning in 562 ms. Found 2 MongoDB repository interfaces.
+2026-11-23 20:43:31.853 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Finished Spring Batch infrastructure beans configuration in 20 ms.
+2026-11-23 20:43:31.854 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2026-11-23 20:43:31.854 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2026-11-23 20:43:31.854 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2026-11-23 20:43:31.855 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2026-11-23 20:43:31.855 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistrySmartInitializingSingleton already defined in the application context, skipping the registration of a jobRegistrySmartInitializingSingleton
+2026-11-23 20:43:31.855 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2026-11-23 20:43:31.855 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Finished Spring Batch infrastructure beans configuration in 1 ms.
+2026-11-23 20:43:31.855 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistrySmartInitializingSingleton already defined in the application context, skipping the registration of a jobRegistrySmartInitializingSingleton
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2026-11-23 20:43:31.856 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Finished Spring Batch infrastructure beans configuration in 0 ms.
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRepository already defined in the application context, skipping the registration of a jobRepository
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobExplorer already defined in the application context, skipping the registration of a jobExplorer
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobLauncher already defined in the application context, skipping the registration of a jobLauncher
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistry already defined in the application context, skipping the registration of a jobRegistry
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobRegistrySmartInitializingSingleton already defined in the application context, skipping the registration of a jobRegistrySmartInitializingSingleton
+2026-11-23 20:43:31.857 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Bean jobOperator already defined in the application context, skipping the registration of a jobOperator
+2026-11-23 20:43:31.859 [main] INFO  o.s.b.c.c.annotation.BatchRegistrar [] [] - Finished Spring Batch infrastructure beans configuration in 1 ms.
+2026-11-23 20:43:34.268 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-23 20:43:34.272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23 20:43:34.484 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport [] [] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.codeit.team2.monew.module.domain.useractivity.repository.MongoCommentItemRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2026-11-23 20:43:34.488 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport [] [] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.codeit.team2.monew.module.domain.useractivity.repository.MongoUserActivityRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2026-11-23 20:43:34.593 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [] [] - Finished Spring Data repository scanning in 304 ms. Found 12 JPA repository interfaces.
+2026-11-23 20:43:39.672 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] [] - Tomcat initialized with port 8089 (http)
+2026-11-23 20:43:39.726 [main] INFO  o.a.coyote.http11.Http11NioProtocol [] [] - Initializing ProtocolHandler ["http-nio-8089"]
+2026-11-23 20:43:39.733 [main] INFO  o.a.catalina.core.StandardService [] [] - Starting service [Tomcat]
+2026-11-23 20:43:39.734 [main] INFO  o.a.catalina.core.StandardEngine [] [] - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-11-23 20:43:39.966 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] [] - Initializing Spring embedded WebApplicationContext
+2026-11-23 20:43:39.967 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [] [] - Root WebApplicationContext: initialization completed in 12558 ms
+2026-11-23 20:43:41.599 [main] INFO  o.h.jpa.internal.util.LogHelper [] [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23 20:43:41.874 [main] INFO  org.hibernate.Version [] [] - HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-11-23 20:43:42.021 [main] INFO  o.h.c.i.RegionFactoryInitiator [] [] - HHH000026: Second-level cache disabled
+2026-11-23 20:43:42.615 [main] INFO  com.zaxxer.hikari.HikariDataSource [] [] - HikariPool-1 - Starting...
+2026-11-23 20:43:43.540 [main] INFO  com.zaxxer.hikari.pool.HikariPool [] [] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@558ed473
+2026-11-23 20:43:43.545 [main] INFO  com.zaxxer.hikari.HikariDataSource [] [] - HikariPool-1 - Start completed.
+2026-11-23 20:43:43.751 [main] WARN  org.hibernate.orm.deprecation [] [] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-23 20:43:43.836 [main] INFO  o.hibernate.orm.connections.pooling [] [] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23 20:43:45.412 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo [] [] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23 20:43:49.593 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator [] [] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23 20:43:49.604 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean [] [] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23 20:43:50.212 [main] INFO  o.s.b.c.r.s.JobRepositoryFactoryBean [] [] - No database type set, using meta data indicating: POSTGRES
+2026-11-23 20:43:50.251 [main] INFO  o.s.b.c.l.s.TaskExecutorJobLauncher [] [] - No TaskExecutor has been set, defaulting to synchronous executor.
+2026-11-23 20:43:55.352 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory [] [] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23 20:44:01.779 [cluster-ClusterId{value='6b042701d607f1622cc1687f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster [] [] - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.lambda$open$0(SocketStream.java:85)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:85)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:233)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitor.lookupServerDescription(DefaultServerMonitor.java:219)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitor.run(DefaultServerMonitor.java:176)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:76)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:104)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:79)
+	... 3 common frames omitted
+2026-11-23 20:44:01.828 [main] INFO  org.mongodb.driver.client [] [] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.10+7"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@119ec2e4], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3411ba50, com.mongodb.Jep395RecordCodecProvider@755fbfab, com.mongodb.KotlinCodecProvider@6fac8b24]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@76d8a94], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2026-11-23 20:44:03.454 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping [] [] - Adding welcome page: class path resource [static/index.html]
+2026-11-23 20:44:06.157 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver [] [] - Exposing 4 endpoints beneath base path '/actuator'
+2026-11-23 20:44:06.377 [main] INFO  o.a.coyote.http11.Http11NioProtocol [] [] - Starting ProtocolHandler ["http-nio-8089"]
+2026-11-23 20:44:06.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [] [] - Tomcat started on port 8089 (http) with context path '/'
+2026-11-23 20:44:06.583 [main] INFO  c.c.t.m.m.d.a.batch.rss.KeywordCache [] [] - Creating Cache
+2026-11-23 20:44:07.057 [main] INFO  c.c.team2.monew.MonewApplication [] [] - Started MonewApplication in 42.432 seconds (process running for 44.2)
+2026-11-23 20:44:07.353 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [] [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23 20:44:07.354 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet [] [] - Initializing Servlet 'dispatcherServlet'
+2026-11-23 20:44:07.357 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet [] [] - Completed initialization in 3 ms
+2026-11-23 20:44:07.691 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [127.0.0.1] - Start - ArticleController/findAll
+2026-11-23 20:44:09.629 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [127.0.0.1] - Complete - ArticleController/findAll
+2026-11-23 20:44:09.637 [http-nio-8089-exec-1] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [127.0.0.1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 976(ms), Query Time(nano) = 977536(us)
+2026-11-23 20:44:10.954 [http-nio-8089-exec-2] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:11.266 [http-nio-8089-exec-2] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:11.267 [http-nio-8089-exec-2] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 281(ms), Query Time(nano) = 279167(us)
+2026-11-23 20:44:11.516 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:11.887 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:11.889 [http-nio-8089-exec-5] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 344(ms), Query Time(nano) = 345726(us)
+2026-11-23 20:44:12.157 [http-nio-8089-exec-3] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:12.502 [http-nio-8089-exec-3] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:12.502 [http-nio-8089-exec-3] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 311(ms), Query Time(nano) = 310076(us)
+2026-11-23 20:44:12.761 [http-nio-8089-exec-6] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:13.144 [http-nio-8089-exec-6] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:13.144 [http-nio-8089-exec-6] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 358(ms), Query Time(nano) = 358592(us)
+2026-11-23 20:44:13.384 [http-nio-8089-exec-10] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:13.713 [http-nio-8089-exec-10] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:13.714 [http-nio-8089-exec-10] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 280(ms), Query Time(nano) = 279098(us)
+2026-11-23 20:44:13.963 [http-nio-8089-exec-7] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:14.317 [http-nio-8089-exec-7] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:14.318 [http-nio-8089-exec-7] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 328(ms), Query Time(nano) = 328788(us)
+2026-11-23 20:44:14.564 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:14.907 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:14.908 [http-nio-8089-exec-1] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 321(ms), Query Time(nano) = 319477(us)
+2026-11-23 20:44:15.165 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:15.442 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:15.442 [http-nio-8089-exec-5] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 258(ms), Query Time(nano) = 256300(us)
+2026-11-23 20:44:15.688 [http-nio-8089-exec-4] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:15.956 [http-nio-8089-exec-4] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:15.957 [http-nio-8089-exec-4] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 250(ms), Query Time(nano) = 250576(us)
+2026-11-23 20:44:16.229 [http-nio-8089-exec-9] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:16.596 [http-nio-8089-exec-9] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:16.596 [http-nio-8089-exec-9] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 344(ms), Query Time(nano) = 344395(us)
+2026-11-23 20:44:16.859 [http-nio-8089-exec-7] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:17.204 [http-nio-8089-exec-7] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:17.205 [http-nio-8089-exec-7] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 328(ms), Query Time(nano) = 325922(us)
+2026-11-23 20:44:17.466 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:17.744 [http-nio-8089-exec-1] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:17.745 [http-nio-8089-exec-1] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 267(ms), Query Time(nano) = 264811(us)
+2026-11-23 20:44:17.991 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:18.329 [http-nio-8089-exec-5] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:18.330 [http-nio-8089-exec-5] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 324(ms), Query Time(nano) = 324756(us)
+2026-11-23 20:44:18.565 [http-nio-8089-exec-4] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:18.917 [http-nio-8089-exec-4] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:18.917 [http-nio-8089-exec-4] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 336(ms), Query Time(nano) = 333668(us)
+2026-11-23 20:44:19.185 [http-nio-8089-exec-9] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Start - ArticleController/findAll
+2026-11-23 20:44:19.502 [http-nio-8089-exec-9] INFO  c.c.t.m.m.d.a.c.ArticleController [] [0:0:0:0:0:0:0:1] - Complete - ArticleController/findAll
+2026-11-23 20:44:19.503 [http-nio-8089-exec-9] INFO  c.c.t.m.c.q.QueryStatisticsAop [] [0:0:0:0:0:0:0:1] - Query Statistics: URL = GET /api/articles,  Query Count = 5, Query Time = 296(ms), Query Time(nano) = 297059(us)
